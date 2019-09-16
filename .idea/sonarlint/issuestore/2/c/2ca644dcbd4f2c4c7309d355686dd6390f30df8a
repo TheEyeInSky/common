@@ -1,0 +1,14 @@
+
+Asquid:S5411H"*Use the primitive boolean expression here.(¯ä¢•
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ˆîçÓüÿÿÿÿ
+isquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ–Îü
+Asquid:S5411["*Use the primitive boolean expression here.(Â©Óï
+Fsquid:S5411f"*Use the primitive boolean expression here.(¢Éª¹úÿÿÿÿ
+nsquid:S3776)"RRefactor this method to reduce its Cognitive Complexity from 67 to the 15 allowed.(°ëŠÜøÿÿÿÿ
+2squid:S3626o"Remove this redundant jump.(ÉŠ©ƒ
+Fsquid:S5411W"*Use the primitive boolean expression here.(§ú¦žÿÿÿÿÿ
+t
+squid:S135D"YReduce the total number of break and continue statements in this loop to use at most one.(É·öãúÿÿÿÿ
+2squid:S3626d"Remove this redundant jump.(ÉŠ©ƒ
+2squid:S3626Q"Remove this redundant jump.(ÉŠ©ƒ
+isquid:S00117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¸ãá
