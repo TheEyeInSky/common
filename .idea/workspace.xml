@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c21977d4-84df-40e4-a06c-9ce760e7e6cd" name="Default Changelist" comment="" />
+    <list default="true" id="c21977d4-84df-40e4-a06c-9ce760e7e6cd" name="Default Changelist" comment="gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/common-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/common-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/ClassLoaderWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/ClassLoaderWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/FileLockHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/FileLockHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/PathDependent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/PathDependent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/PathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/PathUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/SerializationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/SerializationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/SerializationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/SerializationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/TextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/TextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/Assertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/Assertions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/CSVFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/CSVFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/CSVRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/CSVRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/ExtendedBufferedReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/ExtendedBufferedReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/QuoteMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/QuoteMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/AbstractXlsxProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/AbstractXlsxProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/BigExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/BigExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/Csv4Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/Csv4Excel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/DataTableXlsxProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/DataTableXlsxProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/ExcelUtilAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/ExcelUtilAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/IXlsxProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/IXlsxProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/XlsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/XlsReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/XlsxReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/XlsxReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/JdkZipUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/JdkZipUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/ZipUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/ZipUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/core/HeaderReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/core/HeaderReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/core/HeaderWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/core/HeaderWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/core/ZipFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/core/ZipFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/AESDecrypter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/AESDecrypter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/AESEncrpyter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/AESEncrpyter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/IDecrypter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/IDecrypter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/IEncrypter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/IEncrypter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/PBKDF2/PBKDF2Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/PBKDF2/PBKDF2Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/StandardDecrypter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/StandardDecrypter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/StandardEncrypter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/StandardEncrypter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/engine/AESEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/engine/AESEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/BaseInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/BaseInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/CipherOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/CipherOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/DeflaterOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/DeflaterOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/InflaterInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/InflaterInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/PartInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/PartInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/SplitOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/SplitOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/ZipInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/ZipInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/ZipOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/ZipOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/FileHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/FileHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/UnzipEngineParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/UnzipEngineParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/ZipParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/ZipParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/progress/ProgressMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/progress/ProgressMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/unzip/Unzip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/unzip/Unzip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/unzip/UnzipEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/unzip/UnzipEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/unzip/UnzipUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/unzip/UnzipUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/util/ArchiveMaintainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/util/ArchiveMaintainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/util/CRCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/util/CRCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/util/Raw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/util/Raw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/util/Zip4jUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/util/Zip4jUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/zip/ZipEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/zip/ZipEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/text/FormatData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/text/FormatData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/text/Pinyin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/text/Pinyin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/text/StringBuilderExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/text/StringBuilderExt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/text/StringItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/text/StringItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/text/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/text/StringUtils.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,44 +77,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/StringExt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/NumberUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/RandomStringType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,15 +89,90 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>lineSpearator</find>
+      <find>cacheMap</find>
+      <find>toString</find>
+      <find>com.gee4j</find>
+      <find>com.gee4j.</find>
     </findStrings>
+    <replaceStrings>
+      <replace>com.dongzy.common.</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="数值比较" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/progress/ProgressMonitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/command/CommandLineArgs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/command/ExeCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/Assertions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/CSVFormat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/csv/CSVRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/DataGetException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/AbstractXlsxProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/Csv4Excel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/DataTableXlsxProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/IXlsxProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/XlsxReader.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/RandomStringType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/StringExt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/NumberUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/XlsReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/BigExcelUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/ExcelUtilAbstract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/excel/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/core/HeaderReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/core/HeaderWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/core/ZipFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/SplitOutputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/FileHeader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/engine/AESEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/PBKDF2/PBKDF2Engine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/BaseInputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/ZipOutputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/UnzipEngineParameters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/ZipParameters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/ZipInputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/JdkZipUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/PathUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/InflaterInputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/StandardDecrypter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/unzip/UnzipEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/DeflaterOutputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/IEncrypter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/StandardEncrypter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/AESEncrpyter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/CipherOutputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/collection/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/builder/HashCodeBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/caching/MemoryCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/builder/ToStringBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/builder/CompareToBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/collection/CollectionUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/builder/EqualsBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/caching/MethodResultCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/caching/CacheByL1Cache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/caching/Cache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/collection/ExhaustiveArrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/zip/ZipEngine.java" />
       </list>
     </option>
   </component>
@@ -76,7 +181,6 @@
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
         <option name="mavenHome" value="G:/apache-maven-3.2.3" />
-        <option name="userSettingsFile" value="D:\Users\aa1\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -102,13 +206,15 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -166,15 +272,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568625554686" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572829111589" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git\common-master\src\main\java\com\dongzy\common" />
+      <recent name="F:\git\common-master" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -191,6 +306,20 @@
   <component name="RunManager">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dongzy.common.cache.service.impl.MemoryCache" />
+      <module name="common-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dongzy.common.cache.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,6 +355,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MemoryCache" />
+        <item itemvalue="Application.MemoryCache" />
+        <item itemvalue="Application.MemoryCache" />
+        <item itemvalue="Application.MemoryCache" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration useDefault="false">C:\Users\aa1\AppData\Roaming\Subversion</configuration>
@@ -237,79 +374,541 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568624434248</updated>
-      <workItem from="1568624437735" duration="1117000" />
+      <workItem from="1568624437735" duration="8002000" />
+      <workItem from="1572279480408" duration="2333000" />
+      <workItem from="1572590456646" duration="6421000" />
+      <workItem from="1572598387725" duration="8323000" />
     </task>
+    <task id="LOCAL-00001" summary="数值比较">
+      <created>1568629532121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568629532121</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gitignore">
+      <created>1568684363681</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568684363681</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gitignore">
+      <created>1572281827667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572281827668</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1117000" />
+    <option name="totallyTimeSpent" value="25079000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.32995737" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数值比较" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dongzy/common/cache/service/impl/MemoryCache.java</url>
+          <line>17</line>
+          <properties field="cacheMap" class="com.dongzy.common.cache.service.impl.MemoryCache" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dongzy/common/cache/service/impl/MemoryCache.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dongzy/common/cache/service/impl/MemoryCache.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dongzy/common/cache/service/impl/MemoryCache.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/PBKDF2/MacBasedPRF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="495">
+          <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/RandomStringType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/PBKDF2/PBKDF2HexFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="153">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/StringExt.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/PBKDF2/PBKDF2Parameters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/NumberUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/PBKDF2/PRF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="153">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/BaseInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/BaseOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/AESExtraDataRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/ArchiveExtraDataRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/CentralDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/DigitalSignature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/EndCentralDirRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/ExtraDataRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/FileHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="278" column="38" selection-start-line="278" selection-start-column="38" selection-end-line="278" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/LocalFileHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/UnzipEngineParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/UnzipParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/Zip64EndCentralDirLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/Zip64EndCentralDirRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/ZipModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/model/ZipParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/unzip/Unzip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/ZipInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="80" column="18" lean-forward="true" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/unzip/UnzipUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/JdkZipUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/PathUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-698">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/PartInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4832#4833#0" expanded="true" />
+            <element signature="e#4862#4863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/zip/CRC32.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/zip/Inflater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="246" column="15" selection-start-line="246" selection-start-column="15" selection-end-line="246" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/DataFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/InflaterInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/StandardDecrypter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-547">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/unzip/UnzipEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1778">
+          <caret line="189" column="46" lean-forward="true" selection-start-line="189" selection-start-column="46" selection-end-line="189" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/ZipOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/io/IOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/DeflaterOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/IEncrypter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/StandardEncrypter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/crypto/AESEncrpyter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/io/CipherOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="355" column="64" lean-forward="true" selection-start-line="355" selection-start-column="64" selection-end-line="355" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/collection/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/builder/HashCodeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/caching/MemoryCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-501">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/builder/ToStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/builder/CompareToBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/collection/CollectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/builder/EqualsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/caching/MethodResultCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/caching/CacheByL1Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/caching/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/io/zip/zip/ZipEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="187" column="21" lean-forward="true" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dongzy/common/common/collection/ExhaustiveArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
