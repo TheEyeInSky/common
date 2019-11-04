@@ -17,7 +17,7 @@
 
 package com.dongzy.common.common.io.csv;
 
-import com.gee4j.common.Validate;
+import com.dongzy.common.common.Validate;
 
 /**
  * Utility class for input parameter validation.

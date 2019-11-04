@@ -1,8 +1,9 @@
 package com.dongzy.common.common.io;
 
+import com.dongzy.common.common.Validate;
+import com.dongzy.common.log.TextLoggerFactory;
+import org.apache.commons.io.output.ByteArrayOutputStream;
 import org.slf4j.Logger;
-import com.gee4j.common.Validate;
-import com.gee4j.log.TextLoggerFactory;
 
 import java.io.*;
 

@@ -16,15 +16,15 @@
 
 package com.dongzy.common.common.io.zip.io;
 
+import com.dongzy.common.common.io.zip.crypto.AESDecrypter;
+import com.dongzy.common.common.io.zip.crypto.IDecrypter;
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.unzip.UnzipEngine;
+import com.dongzy.common.common.io.zip.util.InternalZipConstants;
+import com.dongzy.common.common.io.zip.util.Zip4jConstants;
+
 import java.io.IOException;
 import java.io.RandomAccessFile;
-
-import com.gee4j.common.io.zip.crypto.AESDecrypter;
-import com.gee4j.common.io.zip.crypto.IDecrypter;
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.unzip.UnzipEngine;
-import com.gee4j.common.io.zip.util.InternalZipConstants;
-import com.gee4j.common.io.zip.util.Zip4jConstants;
 
 public class PartInputStream extends BaseInputStream
 {

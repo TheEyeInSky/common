@@ -16,13 +16,13 @@
 
 package com.dongzy.common.common.io.zip.crypto;
 
-import com.gee4j.common.io.zip.crypto.engine.ZipCryptoEngine;
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.exception.ZipExceptionConstants;
-import com.gee4j.common.io.zip.model.FileHeader;
-import com.gee4j.common.io.zip.util.InternalZipConstants;
+import com.dongzy.common.common.io.zip.crypto.engine.ZipCryptoEngine;
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.exception.ZipExceptionConstants;
+import com.dongzy.common.common.io.zip.model.FileHeader;
+import com.dongzy.common.common.io.zip.util.InternalZipConstants;
 
-public class StandardDecrypter implements IDecrypter {
+public class StandardDecrypter implements com.dongzy.common.common.io.zip.crypto.IDecrypter {
 	
 	private FileHeader fileHeader;
 	private byte[] crc = new byte[4];

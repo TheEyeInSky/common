@@ -3,7 +3,7 @@ package com.dongzy.common.common.io.zip.io;
 import java.io.IOException;
 import java.io.InputStream;
 
-import com.gee4j.common.io.zip.unzip.UnzipEngine;
+import com.dongzy.common.common.io.zip.unzip.UnzipEngine;
 
 public abstract class BaseInputStream extends InputStream {
 

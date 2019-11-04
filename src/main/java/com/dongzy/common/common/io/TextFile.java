@@ -1,6 +1,6 @@
 package com.dongzy.common.common.io;
 
-import com.gee4j.common.text.StringUtils;
+import com.dongzy.common.common.text.StringUtils;
 
 import java.io.*;
 import java.net.URL;

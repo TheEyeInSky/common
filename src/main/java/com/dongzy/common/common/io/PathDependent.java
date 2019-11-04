@@ -1,7 +1,8 @@
 package com.dongzy.common.common.io;
 
+import com.dongzy.common.log.TextLoggerFactory;
 import org.slf4j.Logger;
-import com.gee4j.log.TextLoggerFactory;
+import com.dongzy.common.log.TextLoggerFactory;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

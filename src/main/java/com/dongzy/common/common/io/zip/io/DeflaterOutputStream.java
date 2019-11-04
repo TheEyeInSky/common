@@ -16,16 +16,16 @@
 
 package com.dongzy.common.common.io.zip.io;
 
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.model.ZipModel;
+import com.dongzy.common.common.io.zip.model.ZipParameters;
+import com.dongzy.common.common.io.zip.util.InternalZipConstants;
+import com.dongzy.common.common.io.zip.util.Zip4jConstants;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.zip.Deflater;
-
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.model.ZipModel;
-import com.gee4j.common.io.zip.model.ZipParameters;
-import com.gee4j.common.io.zip.util.InternalZipConstants;
-import com.gee4j.common.io.zip.util.Zip4jConstants;
 
 public class DeflaterOutputStream extends CipherOutputStream {
 	

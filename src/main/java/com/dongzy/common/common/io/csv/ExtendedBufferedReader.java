@@ -17,14 +17,11 @@
 
 package com.dongzy.common.common.io.csv;
 
-import static com.gee4j.common.io.csv.Constants.CR;
-import static com.gee4j.common.io.csv.Constants.END_OF_STREAM;
-import static com.gee4j.common.io.csv.Constants.LF;
-import static com.gee4j.common.io.csv.Constants.UNDEFINED;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.Reader;
+
+import static com.dongzy.common.common.io.csv.Constants.*;
 
 /**
  * A special buffered reader which supports sophisticated read access.

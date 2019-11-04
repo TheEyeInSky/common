@@ -26,17 +26,17 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.gee4j.common.io.zip.core.HeaderReader;
-import com.gee4j.common.io.zip.core.HeaderWriter;
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.io.SplitOutputStream;
-import com.gee4j.common.io.zip.model.FileHeader;
-import com.gee4j.common.io.zip.model.LocalFileHeader;
-import com.gee4j.common.io.zip.model.Zip64EndCentralDirLocator;
-import com.gee4j.common.io.zip.model.Zip64EndCentralDirRecord;
-import com.gee4j.common.io.zip.model.ZipModel;
-import com.gee4j.common.io.zip.progress.ProgressMonitor;
-import com.gee4j.common.text.StringUtils;
+import com.dongzy.common.common.io.zip.core.HeaderReader;
+import com.dongzy.common.common.io.zip.core.HeaderWriter;
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.io.SplitOutputStream;
+import com.dongzy.common.common.io.zip.model.FileHeader;
+import com.dongzy.common.common.io.zip.model.LocalFileHeader;
+import com.dongzy.common.common.io.zip.model.Zip64EndCentralDirLocator;
+import com.dongzy.common.common.io.zip.model.Zip64EndCentralDirRecord;
+import com.dongzy.common.common.io.zip.model.ZipModel;
+import com.dongzy.common.common.io.zip.progress.ProgressMonitor;
+import com.dongzy.common.common.text.StringUtils;
 
 public class ArchiveMaintainer {
 	

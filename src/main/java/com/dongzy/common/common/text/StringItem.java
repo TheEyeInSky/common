@@ -1,6 +1,6 @@
 package com.dongzy.common.common.text;
 
-import com.gee4j.common.builder.ToStringBuilder;
+import com.dongzy.common.common.builder.ToStringBuilder;
 
 import java.util.Map;
 
@@ -18,7 +18,7 @@ public class StringItem<T> implements Map.Entry<String, T> {
     }
 
     @Override
-    public String getKey() {
+    public java.lang.String getKey() {
         return key;
     }
 

@@ -18,8 +18,8 @@ package com.dongzy.common.common.io.zip.model;
 
 import java.io.FileOutputStream;
 
-import com.gee4j.common.io.zip.crypto.IDecrypter;
-import com.gee4j.common.io.zip.unzip.UnzipEngine;
+import com.dongzy.common.common.io.zip.crypto.IDecrypter;
+import com.dongzy.common.common.io.zip.unzip.UnzipEngine;
 
 public class UnzipEngineParameters {
 	

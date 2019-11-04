@@ -16,31 +16,26 @@
 
 package com.dongzy.common.common.io.zip.core;
 
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.io.SplitOutputStream;
+import com.dongzy.common.common.io.zip.model.*;
+import com.dongzy.common.common.io.zip.util.InternalZipConstants;
+import com.dongzy.common.common.io.zip.util.Raw;
+import com.dongzy.common.common.io.zip.util.Zip4jUtil;
+import com.dongzy.common.common.text.StringUtils;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.io.SplitOutputStream;
-import com.gee4j.common.io.zip.model.AESExtraDataRecord;
-import com.gee4j.common.io.zip.model.FileHeader;
-import com.gee4j.common.io.zip.model.LocalFileHeader;
-import com.gee4j.common.io.zip.model.Zip64EndCentralDirLocator;
-import com.gee4j.common.io.zip.model.Zip64EndCentralDirRecord;
-import com.gee4j.common.io.zip.model.ZipModel;
-import com.gee4j.common.io.zip.util.InternalZipConstants;
-import com.gee4j.common.io.zip.util.Raw;
-import com.gee4j.common.io.zip.util.Zip4jUtil;
-import com.gee4j.common.text.StringUtils;
-
 public class HeaderWriter {
 	
 	private final int ZIP64_EXTRA_BUF = 50; 
 	
-	public int writeLocalFileHeader(ZipModel zipModel, LocalFileHeader localFileHeader, 
-			OutputStream outputStream) throws ZipException {
+	public int writeLocalFileHeader(ZipModel zipModel, LocalFileHeader localFileHeader,
+                                    OutputStream outputStream) throws ZipException {
 		if (localFileHeader == null) {
 			throw new ZipException("input parameters are null, cannot write local file header");
 		}

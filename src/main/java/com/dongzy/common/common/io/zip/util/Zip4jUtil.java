@@ -16,10 +16,10 @@
 
 package com.dongzy.common.common.io.zip.util;
 
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.model.FileHeader;
-import com.gee4j.common.io.zip.model.ZipModel;
-import com.gee4j.common.text.StringUtils;
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.model.FileHeader;
+import com.dongzy.common.common.io.zip.model.ZipModel;
+import com.dongzy.common.common.text.StringUtils;
 
 import java.io.File;
 import java.io.UnsupportedEncodingException;

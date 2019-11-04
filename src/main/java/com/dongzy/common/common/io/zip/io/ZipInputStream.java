@@ -19,7 +19,7 @@ package com.dongzy.common.common.io.zip.io;
 import java.io.IOException;
 import java.io.InputStream;
 
-import com.gee4j.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.exception.ZipException;
 
 public class ZipInputStream extends InputStream {
 	

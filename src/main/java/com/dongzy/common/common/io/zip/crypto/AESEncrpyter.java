@@ -18,14 +18,14 @@ package com.dongzy.common.common.io.zip.crypto;
 
 import java.util.Random;
 
-import com.gee4j.common.io.zip.crypto.PBKDF2.MacBasedPRF;
-import com.gee4j.common.io.zip.crypto.PBKDF2.PBKDF2Engine;
-import com.gee4j.common.io.zip.crypto.PBKDF2.PBKDF2Parameters;
-import com.gee4j.common.io.zip.crypto.engine.AESEngine;
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.util.InternalZipConstants;
-import com.gee4j.common.io.zip.util.Raw;
-import com.gee4j.common.io.zip.util.Zip4jConstants;
+import com.dongzy.common.common.io.zip.crypto.PBKDF2.MacBasedPRF;
+import com.dongzy.common.common.io.zip.crypto.PBKDF2.PBKDF2Engine;
+import com.dongzy.common.common.io.zip.crypto.PBKDF2.PBKDF2Parameters;
+import com.dongzy.common.common.io.zip.crypto.engine.AESEngine;
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.util.InternalZipConstants;
+import com.dongzy.common.common.io.zip.util.Raw;
+import com.dongzy.common.common.io.zip.util.Zip4jConstants;
 
 public class AESEncrpyter implements IEncrypter {
 	

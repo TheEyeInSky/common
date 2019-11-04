@@ -22,9 +22,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.zip.CRC32;
 
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.progress.ProgressMonitor;
-import com.gee4j.common.text.StringUtils;
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.progress.ProgressMonitor;
+import com.dongzy.common.common.text.StringUtils;
 
 public class CRCUtil {
 	

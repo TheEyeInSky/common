@@ -16,7 +16,7 @@
 
 package com.dongzy.common.common.io.zip.progress;
 
-import com.gee4j.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.exception.ZipException;
 
 /**
  * If Zip4j is set to run in thread mode, this class helps retrieve current progress

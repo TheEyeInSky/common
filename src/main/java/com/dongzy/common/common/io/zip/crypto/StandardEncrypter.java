@@ -18,9 +18,9 @@ package com.dongzy.common.common.io.zip.crypto;
 
 import java.util.Random;
 
-import com.gee4j.common.io.zip.crypto.engine.ZipCryptoEngine;
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.util.InternalZipConstants;
+import com.dongzy.common.common.io.zip.crypto.engine.ZipCryptoEngine;
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.util.InternalZipConstants;
 
 public class StandardEncrypter implements IEncrypter {
 	

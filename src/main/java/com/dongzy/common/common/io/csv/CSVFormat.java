@@ -17,7 +17,7 @@
 
 package com.dongzy.common.common.io.csv;
 
-import com.gee4j.common.Validate;
+import com.dongzy.common.common.Validate;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -30,7 +30,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-import static com.gee4j.common.io.csv.Constants.*;
+import static com.dongzy.common.common.io.csv.Constants.*;
 
 /**
  * Specifies the format of a CSV file and parses input.

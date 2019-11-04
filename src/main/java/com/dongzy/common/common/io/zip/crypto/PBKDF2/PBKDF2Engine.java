@@ -16,7 +16,7 @@
 
 package com.dongzy.common.common.io.zip.crypto.PBKDF2;
 
-import com.gee4j.common.io.zip.util.Raw;
+import com.dongzy.common.common.io.zip.util.Raw;
 
 /*
  * Source referred from Matthias Gartner's PKCS#5 implementation -

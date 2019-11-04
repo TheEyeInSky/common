@@ -1,8 +1,8 @@
 package com.dongzy.common.common.text;
 
-import com.gee4j.common.collection.ArrayUtils;
-import com.gee4j.common.collection.CollectionUtils;
-import com.gee4j.common.collection.ExhaustiveArrays;
+import com.dongzy.common.common.collection.ArrayUtils;
+import com.dongzy.common.common.collection.CollectionUtils;
+import com.dongzy.common.common.collection.ExhaustiveArrays;
 import net.sourceforge.pinyin4j.PinyinHelper;
 import net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat;
 import net.sourceforge.pinyin4j.format.HanyuPinyinToneType;

@@ -3,7 +3,7 @@ package com.dongzy.common.common.io.zip.io;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import com.gee4j.common.io.zip.model.ZipModel;
+import com.dongzy.common.common.io.zip.model.ZipModel;
 
 public class ZipOutputStream extends DeflaterOutputStream {
 	

@@ -16,12 +16,12 @@
 
 package com.dongzy.common.common.io.zip.model;
 
-import java.util.ArrayList;
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.progress.ProgressMonitor;
+import com.dongzy.common.common.io.zip.unzip.Unzip;
+import com.dongzy.common.common.io.zip.util.Zip4jUtil;
 
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.progress.ProgressMonitor;
-import com.gee4j.common.io.zip.unzip.Unzip;
-import com.gee4j.common.io.zip.util.Zip4jUtil;
+import java.util.ArrayList;
 
 public class FileHeader {
 	
@@ -245,7 +245,7 @@ public class FileHeader {
 	 * @param outPath
 	 * @throws ZipException
 	 */
-	public void extractFile(ZipModel zipModel, String outPath, 
+	public void extractFile(ZipModel zipModel, String outPath,
 			ProgressMonitor progressMonitor, boolean runInThread) throws ZipException {
 		extractFile(zipModel, outPath, null, progressMonitor, runInThread);
 	}
@@ -274,9 +274,9 @@ public class FileHeader {
 	 * @param unzipParameters
 	 * @throws ZipException
 	 */
-	public void extractFile(ZipModel zipModel, String outPath, 
-			UnzipParameters unzipParameters, String newFileName, 
-			ProgressMonitor progressMonitor, boolean runInThread) throws ZipException {
+	public void extractFile(ZipModel zipModel, String outPath,
+                            UnzipParameters unzipParameters, String newFileName,
+                            ProgressMonitor progressMonitor, boolean runInThread) throws ZipException {
 		if (zipModel == null) {
 			throw new ZipException("input zipModel is null");
 		}

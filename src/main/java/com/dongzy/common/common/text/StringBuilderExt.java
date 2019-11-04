@@ -1,4 +1,4 @@
-package com.gee4j.common.text;
+package com.dongzy.common.common.text;
 
 import java.text.MessageFormat;
 

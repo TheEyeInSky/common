@@ -1,0 +1,15 @@
+
+esquid:S1126þ"AReplace this if-then-else statement by a single return statement.(¡¸Î„üÿÿÿÿ8ã›°™á-
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ì‘¥Šùÿÿÿÿ8ã›°™á-
+gsquid:S2259{"IA "NullPointerException" could be thrown; "formatDate()" can return null.(••ëž8«þ²™á-
+\squid:S1155%">Use isEmpty() to check whether the collection is empty or not.(òÃ°ç8ã›°™á-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(‹¸â¶8ã›°™á-
+`squid:CallToDeprecatedMethod",Remove this use of "Date"; it is deprecated.(Å…è”þÿÿÿÿ8ã›°™á-
+Lsquid:S2447Ê"-Null is returned but a "Boolean" is expected.(¥¹ï8ã›°™á-
+asquid:CallToDeprecatedMethod€",Remove this use of "Date"; it is deprecated.(¤·Ðßùÿÿÿÿ8ã›°™á-
+`squid:S1126Ë"AReplace this if-then-else statement by a single return statement.(âÀËÒ8ã›°™á-
+esquid:S1126ô"AReplace this if-then-else statement by a single return statement.(©Ž±»üÿÿÿÿ8ã›°™á-
+Gsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ã›°™á-
+esquid:S1126®"AReplace this if-then-else statement by a single return statement.(¦‹¾øüÿÿÿÿ8ã›°™á-
+\squid:S1155"">Use isEmpty() to check whether the collection is empty or not.(òÃ°ç8ã›°™á-
+†squid:S1157"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(ÊÏôºúÿÿÿÿ8ã›°™á-

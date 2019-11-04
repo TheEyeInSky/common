@@ -1,8 +1,8 @@
 package com.dongzy.common.common.io;
 
-import com.gee4j.common.Validate;
-import com.gee4j.common.text.StringUtils;
-import com.gee4j.config.FileConfigReader;
+import com.dongzy.common.common.Validate;
+import com.dongzy.common.common.text.StringUtils;
+import com.dongzy.common.config.FileConfigReader;
 
 import java.io.File;
 import java.io.FileInputStream;

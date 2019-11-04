@@ -16,8 +16,8 @@
 
 package com.dongzy.common.common.io.zip.crypto.engine;
 
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.util.InternalZipConstants;
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.util.InternalZipConstants;
 
 /**
  * Core Engine for AES Encryption

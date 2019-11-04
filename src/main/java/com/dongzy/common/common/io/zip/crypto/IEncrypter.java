@@ -16,7 +16,7 @@
 
 package com.dongzy.common.common.io.zip.crypto;
 
-import com.gee4j.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.exception.ZipException;
 
 public interface IEncrypter {
 	

@@ -16,16 +16,16 @@
 
 package com.dongzy.common.common.io.zip.zip;
 
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.io.SplitOutputStream;
-import com.gee4j.common.io.zip.io.ZipOutputStream;
-import com.gee4j.common.io.zip.model.EndCentralDirRecord;
-import com.gee4j.common.io.zip.model.FileHeader;
-import com.gee4j.common.io.zip.model.ZipModel;
-import com.gee4j.common.io.zip.model.ZipParameters;
-import com.gee4j.common.io.zip.progress.ProgressMonitor;
-import com.gee4j.common.io.zip.util.*;
-import com.gee4j.common.text.StringUtils;
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.io.SplitOutputStream;
+import com.dongzy.common.common.io.zip.io.ZipOutputStream;
+import com.dongzy.common.common.io.zip.model.EndCentralDirRecord;
+import com.dongzy.common.common.io.zip.model.FileHeader;
+import com.dongzy.common.common.io.zip.model.ZipModel;
+import com.dongzy.common.common.io.zip.model.ZipParameters;
+import com.dongzy.common.common.io.zip.progress.ProgressMonitor;
+import com.dongzy.common.common.io.zip.util.*;
+import com.dongzy.common.common.text.StringUtils;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -180,14 +180,14 @@ public class ZipEngine {
             if (inputStream != null) {
                 try {
                     inputStream.close();
-                } catch (IOException ignored) {
+                } catch (IOException e) {
                 }
             }
 
             if (outputStream != null) {
                 try {
                     outputStream.close();
-                } catch (IOException ignored) {
+                } catch (IOException e) {
                 }
             }
         }
@@ -239,7 +239,6 @@ public class ZipEngine {
                 try {
                     outputStream.close();
                 } catch (IOException e) {
-                    //ignore
                 }
             }
         }

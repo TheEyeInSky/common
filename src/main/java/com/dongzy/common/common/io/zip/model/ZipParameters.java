@@ -16,10 +16,10 @@
 
 package com.dongzy.common.common.io.zip.model;
 
-import com.gee4j.common.io.zip.util.InternalZipConstants;
-import com.gee4j.common.io.zip.util.Zip4jConstants;
-import com.gee4j.common.io.zip.util.Zip4jUtil;
-import com.gee4j.common.text.StringUtils;
+import com.dongzy.common.common.io.zip.util.InternalZipConstants;
+import com.dongzy.common.common.io.zip.util.Zip4jConstants;
+import com.dongzy.common.common.io.zip.util.Zip4jUtil;
+import com.dongzy.common.common.text.StringUtils;
 
 import java.util.TimeZone;
 

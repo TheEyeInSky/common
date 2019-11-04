@@ -1,6 +1,7 @@
 package com.dongzy.common.common.io;
 
-import com.gee4j.common.BaseException;
+import com.dongzy.common.common.BaseException;
+import com.dongzy.common.common.BaseException;
 
 /**
  * 程序执行异常

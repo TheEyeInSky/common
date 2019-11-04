@@ -16,22 +16,22 @@
 
 package com.dongzy.common.common.io.zip.unzip;
 
-import com.gee4j.common.io.PathUtils;
-import com.gee4j.common.io.zip.core.HeaderReader;
-import com.gee4j.common.io.zip.crypto.AESDecrypter;
-import com.gee4j.common.io.zip.crypto.IDecrypter;
-import com.gee4j.common.io.zip.crypto.StandardDecrypter;
-import com.gee4j.common.io.zip.exception.ZipException;
-import com.gee4j.common.io.zip.io.InflaterInputStream;
-import com.gee4j.common.io.zip.io.PartInputStream;
-import com.gee4j.common.io.zip.io.ZipInputStream;
-import com.gee4j.common.io.zip.model.*;
-import com.gee4j.common.io.zip.progress.ProgressMonitor;
-import com.gee4j.common.io.zip.util.InternalZipConstants;
-import com.gee4j.common.io.zip.util.Raw;
-import com.gee4j.common.io.zip.util.Zip4jConstants;
-import com.gee4j.common.io.zip.util.Zip4jUtil;
-import com.gee4j.common.text.StringUtils;
+import com.dongzy.common.common.io.PathUtils;
+import com.dongzy.common.common.io.zip.core.HeaderReader;
+import com.dongzy.common.common.io.zip.crypto.AESDecrypter;
+import com.dongzy.common.common.io.zip.crypto.IDecrypter;
+import com.dongzy.common.common.io.zip.crypto.StandardDecrypter;
+import com.dongzy.common.common.io.zip.exception.ZipException;
+import com.dongzy.common.common.io.zip.io.InflaterInputStream;
+import com.dongzy.common.common.io.zip.io.PartInputStream;
+import com.dongzy.common.common.io.zip.io.ZipInputStream;
+import com.dongzy.common.common.io.zip.model.*;
+import com.dongzy.common.common.io.zip.progress.ProgressMonitor;
+import com.dongzy.common.common.io.zip.util.InternalZipConstants;
+import com.dongzy.common.common.io.zip.util.Raw;
+import com.dongzy.common.common.io.zip.util.Zip4jConstants;
+import com.dongzy.common.common.io.zip.util.Zip4jUtil;
+import com.dongzy.common.common.text.StringUtils;
 
 import java.io.*;
 import java.util.Arrays;
@@ -43,7 +43,7 @@ public class UnzipEngine {
     private FileHeader fileHeader;
     private int currSplitFileCounter = 0;
     private LocalFileHeader localFileHeader;
-    private IDecrypter decrypter;
+    private com.dongzy.common.common.io.zip.crypto.IDecrypter decrypter;
     private CRC32 crc;
 
     public UnzipEngine(ZipModel zipModel, FileHeader fileHeader) throws ZipException {

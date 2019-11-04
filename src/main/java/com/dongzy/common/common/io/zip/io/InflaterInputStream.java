@@ -16,15 +16,15 @@
 
 package com.dongzy.common.common.io.zip.io;
 
-import java.io.EOFException;
-import java.io.IOException;
-import java.io.RandomAccessFile;
-import java.util.zip.DataFormatException;
-import java.util.zip.Inflater;
+import com.dongzy.common.common.DataFormatException;
+import com.dongzy.common.common.io.zip.unzip.UnzipEngine;
+import com.dongzy.common.common.io.zip.util.InternalZipConstants;
+import com.dongzy.common.common.io.zip.util.Zip4jConstants;
 
-import com.gee4j.common.io.zip.unzip.UnzipEngine;
-import com.gee4j.common.io.zip.util.InternalZipConstants;
-import com.gee4j.common.io.zip.util.Zip4jConstants;
+import java.io.*;
+import java.util.Arrays;
+import java.util.zip.CRC32;
+import java.util.zip.Inflater;
 
 public class InflaterInputStream extends PartInputStream {
 	
@@ -44,11 +44,13 @@ public class InflaterInputStream extends PartInputStream {
 		uncompressedSize = unzipEngine.getFileHeader().getUncompressedSize();
 	}
 
-	public int read() throws IOException {
+	@Override
+    public int read() throws IOException {
 		return read(oneByteBuff, 0, 1) == -1 ? -1 : oneByteBuff[0] & 0xff;
 	}
 	
-	public int read(byte[] b) throws IOException {
+	@Override
+    public int read(byte[] b) throws IOException {
 		if (b == null) {
 			throw new NullPointerException("input buffer is null");
 		}
@@ -56,7 +58,8 @@ public class InflaterInputStream extends PartInputStream {
 		return read(b, 0, b.length);
 	}
 	
-	public int read(byte[] b, int off, int len) throws IOException {
+	@Override
+    public int read(byte[] b, int off, int len) throws IOException {
 		
 		if (b == null) {
 			throw new NullPointerException("input buffer is null");
@@ -83,7 +86,7 @@ public class InflaterInputStream extends PartInputStream {
 		    }
 		    bytesWritten += n;
 		    return n;
-		} catch (DataFormatException e) {
+		} catch (java.util.zip.DataFormatException e) {
 		    String s = "Invalid ZLIB data format";
 		    if (e.getMessage() != null) {
 		    	s = e.getMessage();
@@ -123,7 +126,8 @@ public class InflaterInputStream extends PartInputStream {
      * @exception IOException if an I/O error has occurred
      * @exception IllegalArgumentException if n < 0
      */
-	public long skip(long n) throws IOException {
+	@Override
+    public long skip(long n) throws IOException {
         if (n < 0) {
             throw new IllegalArgumentException("negative skip length");
         }
@@ -145,7 +149,8 @@ public class InflaterInputStream extends PartInputStream {
     }
 	
 	
-	public void seek(long pos) throws IOException {
+	@Override
+    public void seek(long pos) throws IOException {
 		super.seek(pos);
 	}
 	
@@ -159,16 +164,19 @@ public class InflaterInputStream extends PartInputStream {
      * @exception  IOException  if an I/O error occurs.
      * 
      */
-	public int available() {
+	@Override
+    public int available() {
 		return inflater.finished() ? 0 : 1;
 	}
 	
-	public void close() throws IOException {
+	@Override
+    public void close() throws IOException {
 		inflater.end();
 		super.close();
 	}
 	
-	public UnzipEngine getUnzipEngine() {
+	@Override
+    public UnzipEngine getUnzipEngine() {
 		return super.getUnzipEngine();
 	}
 }
